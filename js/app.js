@@ -50,6 +50,7 @@ angular.module('starter', ['ionic'])
       scope: $scope
     }).then(function(modal) {
       $scope.modal = modal;
+      console.log( modal) ;
       $scope.modal.show();
     });
   }
@@ -67,5 +68,8 @@ angular.module('starter', ['ionic'])
       $ionicSlideBoxDelegate.enableSlide(false);
     }
   };
+
+
+
 });
 
